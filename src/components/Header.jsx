@@ -7,7 +7,7 @@ function Header () {
             <ul className="flex">
                 <li className="ml-6"><Link to="/" className="text-white">Accueil</Link></li>
                 <li className="ml-6"><Link to="/apropos" className="text-white">A propos</Link></li>
-                <li className="ml-6"><a href="#" className="text-white">Contact</a></li>
+                <li className="ml-6"><Link to="/contact" className="text-white">Contact</Link></li>
             </ul>
         </nav>
     );
